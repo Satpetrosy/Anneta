@@ -704,6 +704,69 @@ section.h-section3{
     background-position: center;
     margin-top: 60px;
 }
+.price {
+    height: 142px;
+    text-align: center;
+}
+.price2 {
+    height: 142px;
+    text-align: center;
+}
+.price3 {
+    height: 142px;
+    text-align: center;
+}
+.box_right img {
+    width: 21px;
+    height: 18px;
+    margin-left: 25px;
+}
+.price2 {
+    background-color: #fafafa;
+}
+.price3 {
+    background-color: #f5f5f5;
+}
+button {
+    cursor: pointer;
+}
+.box_right .price p {
+    font-family: Montserrat;
+    font-size: 34px;
+    line-height: 0.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+.box_right .price2 p {
+    font-family: Montserrat;
+    font-size: 34px;
+    line-height: 0.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+.box_right .price3 p {
+    font-family: Montserrat;
+    font-size: 34px;
+    line-height: 0.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+.box_right button {
+    width: 186px;
+    height: 42px;
+    border-radius: 21.2px;
+    background-color: #f2e65a;
+    border: none;
+}
 .h-sectn_oled-left h2 {
     font-family: Montserrat-Bold;
     font-size: 24px;
@@ -808,7 +871,7 @@ select {
     width: 47%;
 }
 .h-sectn_oled-left {
-    width: 72%;
+    width: 65%;
 }
 label {
     font-family: Montserrat-Regular;
@@ -819,7 +882,7 @@ label {
 }
 .h-sectn_digimakse-right {
     width: 28%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .bank span {
@@ -979,19 +1042,77 @@ ul {
 }
 .tab-content>.active {
     background-color: #f6f6f6;
+    width: 90%;
 }
 .nav-tabs .nav-link {
     border: solid 1px #e0e0e0;
-    margin-right: 2px;
+    margin-right: 5px;
     font-family: Montserrat-Regular;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: normal;
     text-align: left;
     color: #727272;
+    border-radius: 0;
 }
 .nav-tabs {
     margin-top: 23px;
+    width: 90%;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.photo img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 1px #b2dbf8;
+}
+.photo {
+    border: 2px solid #b2dbf8;
+    border-radius: 50%;
+    padding: 6px;
+    width: 142px;
+    margin-bottom: 29px;
+}
+.image_text h2 {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #000000;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: normal;
+}
+.image_text {
+    text-align: -webkit-center;
+    margin-top: 20px;
+}
+.image_text .email {
+    color: #47799d;
+    font-size: 14px;
+}
+.image_text h3 {
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    color: #727272;
+    margin: 5px;
+}
+.image_text p {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #727272;
+}
+@media (max-width: 992px) {
+.images {
+    flex-wrap: wrap;
+}
 }
 @media (max-width: 500px) {
     .saada1 button {
