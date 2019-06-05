@@ -770,7 +770,6 @@ button {
     font-family: Montserrat-Bold;
     font-size: 24px;
     font-weight: bold;
-    line-height: 0.67;
     letter-spacing: normal;
     color: #000000;
     margin-bottom: 22px;
@@ -1307,15 +1306,217 @@ ul {
         height: 69px;
     }
 }
+/*toetame */
 
 
+.logos_area {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.logos {
+    margin-right: 30px;
+}
+.info {
+    display: flex;
+    margin-top: 83px;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.lisainfo ul {
+    margin-bottom: 0;
+}
+.lisainfo h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Montserrat-Bold;
+    margin-bottom: 11px;
+}
+.lisainfo li {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #727272;
+}
+.box {
+    text-align: center;
+    margin-left: 40px;
+}
+.box button {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    border-radius: 3px;
+}
+.social_box {
+    display: flex;
+    align-items: flex-end;
+}
+.button1 {
+    background-color: #4762b7;
+    color: #ffffff;
+    border: none;
+}
+.button2 {
+    background-color: #fafafa;
+    color: #000000;
+    border: 1px solid #cecece;
+}
+.button3 {
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+    color: #df4a31;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button1 span {
+    color: #4762b7;
+    background-color: #ffffff;
+    font-size: 11px;
+    padding: 2px 3px 0 5px;
+    margin-right: 4px;
+}
+.button2 span {
+    color: #00aaef;
+    font-size: 11px;
+    padding: 2px 3px 0 5px;
+    margin-right: 4px;
+}
+
+body {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.tooltip {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border-bottom: dotted 1px grey;
+    padding-bottom: 2px;
+    opacity: unset;
+}
+
+.tooltip:after {
+    content: attr(data-tooltip);
+    display: block;
+    position: absolute;
+    color: #000000;
+    padding: 3px;
+    border-radius: 3px;
+    bottom: 138%;
+    text-align: center;
+    display: none;
+    font-size: 14px;
+    line-height: 1.3;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 54px;
+    height: 34px;
+}
+
+.tooltip:before {
+    content: "";
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    top: -13px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    display: none;
+    z-index: 2;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.tooltip:hover:after,
+.tooltip:hover:before {
+    display: block;
+}
+.image_line {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*margin-top: 15px;*/
+    /*margin-bottom: 47px;*/
+}
+.item {
+    /*width: 60px;*/
+    /*height: 60px;*/
+}
+.item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+@media (max-width: 1062px) {
+    .info {
+        flex-direction: column;
+        margin-top: 94px;
+    }
+    .social_box {
+        margin-top: 30px;
+    }
+    .box {
+        margin-right: 34px;
+        margin-left: 0;
+    }
+}
 
 
+/**/
+
+.container {
+    margin: auto;
+}
+
+.main-img img,
+.imgs img {
+    width: 100%
+}
+.main-img {
+    margin-bottom: 15px;
+}
+.imgs {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 5px;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.imgs img {
+    width: 54px;
+    height: 53px;
+    object-fit: cover;
+}
+footer {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.9rem;
+}
 
 
+/* css aimation for the images */
 
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
 
-
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1 forwards;
+}
 
 
 
