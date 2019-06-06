@@ -15,7 +15,7 @@ imgs.forEach(img => img.addEventListener('click', imgClick));
 const opacity = 0.5;
 
 //set First image opacity
-imgs[0].style.opacity = opacity;
+
 
 function imgClick(e) {
     //Reset opacity
