@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8fd37c-58e0-4c79-bbec-aabafa3bb617" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toetajad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oled.html" beforeDir="false" afterPath="$PROJECT_DIR$/oled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toeta-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/toeta-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toeta.html" beforeDir="false" afterPath="$PROJECT_DIR$/toeta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toetame-koos.html" beforeDir="false" afterPath="$PROJECT_DIR$/toetame-koos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tule.html" beforeDir="false" afterPath="$PROJECT_DIR$/tule.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +289,7 @@
       <workItem from="1559626001370" duration="25442000" />
       <workItem from="1559710894060" duration="23981000" />
       <workItem from="1559797116372" duration="26591000" />
-      <workItem from="1559885179967" duration="21046000" />
+      <workItem from="1559885179967" duration="21545000" />
     </task>
     <task id="LOCAL-00001" summary="Add text">
       <created>1559659563636</created>
@@ -336,15 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559830583506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1559916995827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559916995827</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164628000" />
+    <option name="totallyTimeSpent" value="165127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
