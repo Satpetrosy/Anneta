@@ -1076,6 +1076,11 @@ ul {
     margin-top: 23px;
     width: 90%;
 }
+
+
+@media screen and (max-width: 560px) {
+    .search-wrapper.active .input-holder {width:200px;}
+}
 .images {
     display: flex;
     justify-content: space-around;

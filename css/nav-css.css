@@ -1,6 +1,7 @@
 .first_nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-bottom: 1px;
 }
 .first_nav .navbar-collapse {
     max-width: 724px;
@@ -11,7 +12,9 @@
     position: absolute;
     top:2%;
 }
-.search-wrapper.active {}
+.search-wrapper.active {
+    width: 21%;
+}
 
 .search-wrapper .input-holder {
     overflow: hidden;
@@ -26,7 +29,7 @@
 }
 .search-wrapper.active .input-holder {
     border-radius: 50px;
-    width:231px;
+    width:100%;
     background: #f2e65a;;
     -webkit-transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
     -moz-transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
